@@ -1,8 +1,18 @@
 # Virtual AI Mouse 🖱️
 
-Control your computer mouse using hand gestures with your webcam!
+## 📖 Project Description
+The **Virtual AI Mouse** is a computer vision-based application that allows you to control your computer's mouse cursor and perform system actions using simple hand gestures. By leveraging a standard webcam, it eliminates the need for physical hardware like a mouse or trackpad.
 
-## �️ Installation & Setup
+Built with **Python**, **OpenCV**, and **MediaPipe**, this project detects hand landmarks in real-time and maps them to screen coordinates. It supports a variety of intuitive gestures for navigation, clicking, scrolling, and even volume control, making it a futuristic and touch-free way to interact with your PC.
+
+### ✨ Key Features
+*   **Touch-Free Navigation**: Move the cursor just by pointing your finger.
+*   **Gesture Clicking**: Perform Left and Right clicks with pinch gestures.
+*   **Smart Smoothing**: Adaptive algorithm to reduce cursor jitter and lag.
+*   **System Control**: Adjust volume and scroll through pages using natural hand motions.
+*   **Real-Time Performance**: Optimized for low latency on standard CPUs.
+
+## 🛠️ Installation & Setup
 
 1.  **Prerequisites**
     *   Make sure you have **Python 3.7+** installed.
@@ -13,7 +23,7 @@ Control your computer mouse using hand gestures with your webcam!
     pip install -r requirements.txt
     ```
 
-## �🚀 How to Run
+## �� How to Run
 
 1.  **Start the Application**
     Run the following command in your terminal:
