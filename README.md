@@ -2,10 +2,29 @@
 
 Control your computer mouse using hand gestures with your webcam!
 
-## 🚀 How to Run
-```bash
-python3 virtual_mouse.py
-```
+## �️ Installation & Setup
+
+1.  **Prerequisites**
+    *   Make sure you have **Python 3.7+** installed.
+
+2.  **Install Dependencies**
+    Open your terminal/command prompt in the project folder and run:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## �🚀 How to Run
+
+1.  **Start the Application**
+    Run the following command in your terminal:
+    ```bash
+    python3 virtual_mouse.py
+    ```
+
+2.  **Usage**
+    *   The webcam window will open.
+    *   Show your hand to the camera (keep it about 1-2 feet away).
+    *   Use the gestures below to control your mouse.
 
 ## ✋ Gesture Commands
 
@@ -23,4 +42,4 @@ You can adjust settings in `virtual_mouse.py`:
 *   `smoothening`: Mouse movement smoothness.
 
 ## 🛑 Exit
-Press **'q'** to close the application.
+Press **'q'** on your keyboard to close the application.
